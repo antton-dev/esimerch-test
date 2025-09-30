@@ -76,7 +76,7 @@ export default function ShowcaseSite() {
               <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-gradient-to-br from-violet-100 via-white to-white" />
               <div className="rounded-[2rem] p-6 ring-1 ring-neutral-200 bg-white shadow-sm">
                 <div className="aspect-[4/3] w-full overflow-hidden rounded-xl grid place-items-center">
-                  <img src={LOGO_SRC} alt="Logo" className="h-100 w-100 opacity-90" />
+                  <img src={LOGO_SRC} alt="Logo" className="max-w-[400px] w-full h-auto object-contain opacity-90" />
                 </div>
               </div>
             </div>
